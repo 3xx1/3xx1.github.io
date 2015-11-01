@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>A/V Pixels</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
+        <link rel="stylesheet" href="assets/css/flexslider.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- ICONS -->
+        <link rel="shortcut icon" href="assets/ico/kazfavicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/kaz-apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/kaz-apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/kaz-apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/kaz-apple-touch-icon-57-precomposed.png">
+    </head>
+
+
+    <body>
+
+        <!-- Header -->
+        <div class="container">
+            <div class="header row">
+                <div class="span12">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                            <h1>
+                                <a class="brand" href="home.html">Hidekazu Saegusa - online portfolio</a>
+                            </h1>
+                            <div class="nav-collapse collapse">
+                                <ul class="nav pull-right">
+                                    <li>
+                                        <a href="home.html"><i class="icon-home"></i><br />Home</a>
+                                    </li>
+                                    <li class="current-page">
+                                        <a href="portfolio.html"><i class="icon-camera"></i><br />Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="resume.html"><i class="icon-user"></i><br />Resume</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html"><i class="icon-envelope-alt"></i><br />Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slider">
+            <div class="container">
+                <div class="row">
+                    <div class="span10 offset1">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="portfolio portfolio-page container">
+            <div class="row">
+                        <div class="works">
+                            <h2>A/V Pixels</h2>
+                            <img src="assets/img/portfolio/portfolio-afog.jpg" alt="">
+
+                            <h3>Overview</h3>
+                            <p>A/V Pixels is a set of wirelessly connected tangible pixels that converts audio to visual information. A user can deploy A/V Pixels so as to visualize a soundscape in a room. The project ultimately aims at creating a new platform for new audio/visual expressions in the future IoT period. This project is more of a research project than a design project. </p>
+
+                            <h3>My Role</h3>
+                            <p>I was engaged in this project mostly as a Technologist and Researcher, where I designed and implemented micro controller middleware, wireless connections among local nodes, signal processing, and all other software/hardware developments. Also, I conducted quick user research, where I validated the idea that having multiple pixels augments human auditory spatial cognition. </p>
+
+                            <h3>System Design</h3>
+                            <p>This system comprises of a master node and multiple local nodes. The master node collects data from local nodes, and controls their behaviors. Local nodes input a sound through the embedded microphone, process it with DSP, and transmit the results to the master node. In addition, they can also represent the results of DSP using embedded full-color LED.</p>
+                            <img src="assets/img/portfolio/portfolio-afog-picweb1.jpg" alt="">
+                            <p><center>Fig.1: Schematic View of the System</center></p>
+                            <p>Figure 1 shows the schematic view of the Acoustic Information Visualization Interface Network. By applying a wireless networking as the communication method among the local nodes, a user can deploy local nodes to arbitrary points and visualize a sound space without spatial limitations due to the form of an interface.</p>
+
+                            <h3>Applications</h3>
+                            <p>The system can be flexibly applied to various situations as to the form of ranges of obsevation, and to objectives. Figure 2 shows the appearance of the application to a space in front of two speakers and a corridor. </p>
+                            <img src="assets/img/portfolio/portfolio-afog-picweb2.jpg" alt="">
+                            <p><center>Fig.2: Appearance of Acoustic Visualization in Front of Two Speakers (left) & Implementation of the System in a Corridor (right)</center></p>
+                            </br>
+                            <p>In addition, it was also demonstrated that this system is capable of augmenting sound localization perception. As shown in Figure 4, an experiment of sound localization is conducted associated with the system, and it was indicated that the system helped subjects' perception of sound image with its depiction.(The experiment was conducted under two conditions: the system not activated, the system activated. The latter condition indicated the predominance in subjects' sound localization perception accuracy, comparing to the former condition.)</p>
+                            <img src="assets/img/portfolio/portfolio-afog-picweb3.jpg" alt="">
+                            <p><center>Fig.3: Experiment Overview</center></p>
+
+
+                            <h3>Discussion</h3>
+                            <p>Implementations demonstrated that this system is flexibly applicable to various situations, depending on user preferences, the space, and the features of the soundscape. Since the system can represent sound fields as visual information without physical limitations resulting from the chassis of an interface, users can modify arrangements of interfaces, as they like, coping with features of a soundscape within the space. </p>
+                            <p>It was also shown that the system is capable of aiding more accurate perception of sound localization, offering multimodal information to a subject. Considering the physical flexibility of the system, it is expected to augment such human abilities even in a more spatial place. The system will be used for a new sort of audio-visual expression, since it can augment our senses to perceive a sound expression.</p>
+
+
+                            <h3>Contributions</h3>
+                            <p>All ideation, prototyping, study design was by me advised by Prof.Yasuhiro Oikawa.</p>
+
+                            <h3>Publications</h3>
+                            <p>Hidekazu Saegusa, Yasuhiro Oikawa, “Coloration of Sound Space Using Acoustic Information Visualization Interface Network” [in Japanese], The Institute of Image Information and Television Engineers Technical Report, Vol.36, No.46, pp55-60 (2012).</p>
+
+
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="copyright span6">
+                    <p>[Last Update] Feb/14/2015 - Copyright 2015 Hidekazu Saegusa - All rights reserved. </p>
+                </div>
+                <div class="social span6">
+                    <a class="linkedin" href="https://www.linkedin.com/profile/view?id=302365108&trk=nav_responsive_tab_profile"></a>
+                    <a class="facebook" href="https://www.facebook.com/hidekazu.saegusa"></a>
+                    <a class="twitter" href="https://twitter.com/3xx1"></a>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.flexslider.js"></script>
+        <script src="assets/js/jquery.tweet.js"></script>
+        <script src="assets/js/jflickrfeed.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="assets/js/jquery.ui.map.min.js"></script>
+        <script src="assets/js/jquery.quicksand.js"></script>
+        <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+
+</html>
